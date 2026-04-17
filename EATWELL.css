@@ -1,0 +1,491 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Raleway', sans-serif;
+}
+.home{
+    background-image:url("https://preview.colorlib.com/theme/eatwell/images/bg_3.jpg");
+    width:100%;
+    height:100vh;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.home nav{
+    position:fixed;
+    width:100%;
+}
+.home nav .nav_container{
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+}
+.home nav ul{
+    display:flex;
+    width:40%;
+    justify-content:space-evenly;
+    padding:15px;
+}
+.home nav .nav_container h2{
+    font-size:20px;
+    font-weight:400;
+    color:white;
+    font-family:'Raleway', sans-serif;
+}
+.home nav .nav_container ul li{
+    list-style:none;
+    padding:0px 15px;
+}
+.home nav .nav_container ul li a{
+    text-decoration:none;
+    color:RGB(184, 184, 184);
+    font-size:13px;
+}
+.home .home_content{
+    height:100vh;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.home .home_content h1{
+    color:white;
+    font-size:75px;
+    font-weight:700;
+}
+.home .home_content p{
+    color:RGBA(255, 255, 255, 0.7);
+    font-size:20px;
+    font-weight:300;
+    padding:40px 0px;
+}
+.home .home_content a{
+    border:2px white solid;
+    padding:15px 40px;
+    color:white;
+    transition:all 0.5s ease;
+}
+.home .home_content a:hover{
+    background-color:white;
+    color:black;
+}
+.about{
+    width:100%;
+    height:600px;
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.about .about_right img{
+    width:700px;
+    height:400px;
+    padding-left:100px;
+}
+.about .about_left h4{
+    color:RGB(212, 212, 212);
+    font-size:16px;
+    font-weight:300;
+}
+.about .about_left h2{
+    font-size:56px;
+    font-weight:200;
+    padding:15px 0px;
+}
+.about .about_left p{
+    color:RGB(212, 212, 212);
+    font-size:16px;
+    font-weight:400;
+    padding-bottom:40px;
+}
+.about .about_left a{
+    color:RGB(212, 212, 212);
+    font-size:16px;
+    font-weight:400;
+    border:2px RGB(212, 212, 212) solid;
+    padding:15px 40px;
+    transition:all 0.5s ease;
+}
+.about .about_left a:hover{
+    background-color:#FDA403;
+    color:white;
+}
+.offer{
+    width:100%;
+    height:150vh;
+    background-color:#F8F9FA;
+}
+.offer .offer_heading{
+    text-align:center;
+    padding:100px 0px;
+}
+.offer .offer_heading h4{
+    color:RGB(212, 212, 212);
+    font-size:16px;
+    font-weight:300;
+}
+.offer .offer_heading h2{
+    font-size:56px;
+    font-weight:300;
+    padding:20px 0px;
+}
+.offer .offer_heading p{
+    font-size:20px;
+    font-weight:300;
+    color:RGB(212, 212, 212);
+}
+.offer .dishes{
+    display:flex;
+    justify-content:space-evenly;
+}
+.offer .dishes .dish{
+    position:relative;
+    background-color:white;
+    width:25%;
+    height:600px;
+    text-align:center;
+}
+.offer .dishes .dish img{
+    width:100%;
+}
+.offer .dishes .dish #price{
+    color:#FDA403;
+    font-weight:700px;
+}
+.offer .dishes .dish h5{
+    font-size:24px;
+    font-weight:700px;
+    padding:10px 0px;
+}
+.offer .dishes .dish p{
+    color:#B8B8B8;
+    font-size:16px;
+    font-weight:400;
+}
+.offer .dishes .dish a{
+    position:absolute;
+    color:white;
+    border:2px #FDA403 solid;
+    background-color:#FDA403;
+    padding:15px 40px;
+    bottom:15%;
+    left:30%;
+    transition:all 1s ease;
+}
+.offer .dishes .dish a:hover{
+   background-color:#CB8402;
+}
+.offer .dots{
+    text-align:center;
+    padding:25px 10px;
+}
+.offer .dots .dot{
+    display:inline-block;
+    width:12px;
+    height:12px;
+    background-color:#CCCCCC;
+    border-radius:5px;
+    margin:0px 5px;
+}
+.offer .dots .dot_1{
+    background-color:#FDA403;
+}
+.menu{
+    width:100%;
+    height:120vh;
+    background-color:white;
+}
+.menu .menu_heading{
+    text-align:center;
+    padding:50px 0px;
+}
+.menu .menu_heading h2{
+    font-size:56px;
+    font-weight:300;
+}
+.menu .menu_heading p{
+  color:#B8B8B8;
+  font-weight:300;
+  padding:15px 0px 50px 0px;
+}
+.menu .menu_heading .meals #breakfast {
+    border:2px black solid;
+    padding:10px 15px;
+    font-size:14px;
+    font-weight:400;
+}
+.menu .menu_heading .meals #lunch{
+    color:#B8B8B8;
+    border:2px #B8B8B8 solid;
+    padding:10px 10px;
+    font-size:14px;
+    font-weight:400;
+    margin:0px 5px;
+}
+.menu .menu_heading .meals #dinner{
+    color:#B8B8B8;
+    border:2px #B8B8B8 solid;
+    padding:10px 10px;
+    font-size:14px;
+    font-weight:400;
+}
+.menu .menu_content{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    row-gap:30px;
+}
+.menu .menu_content .meal{
+    display:flex;
+    flex-wrap:wrap;
+    width:40%;
+}
+.menu .menu_content .meal img{
+    width:100px;
+    height:100px;
+    border-radius:50px;
+}
+.menu .menu_content .meal .description{
+    padding:0px 15px;
+}
+.menu .menu_content .meal .description h5{
+    font-size:20px;
+    font-weight:700;
+}
+.menu .menu_content .meal .description p{
+    font-size:16px;
+    font-weight:400;
+    color:#B8B8B8;
+    padding:20px 0px;
+}
+.menu .menu_content .meal .description h6{
+    font-size:24px;
+    font-weight:500;
+    color:#FDA403;
+}
+.news{
+    width:100%;
+    height:150vh;
+    background-color:#F8F9FA;
+}
+.news .news_heading{
+    text-align:center;
+    padding:100px 0px;
+}
+.news .news_heading h4{
+    color:RGB(212, 212, 212);
+    font-size:16px;
+    font-weight:300;
+}
+.news .news_heading h2{
+    font-size:56px;
+    font-weight:300;
+    padding:20px 0px;
+}
+.news .news_heading p{
+    font-size:20px;
+    font-weight:300;
+    color:RGB(212, 212, 212);
+}
+.news .dishes{
+    display:flex;
+    justify-content:space-evenly;
+}
+.news .dishes .dish{
+    position:relative;
+    background-color:white;
+    width:25%;
+    height:600px;
+    text-align:center;
+}
+.news .dishes .dish img{
+    width:100%;
+}
+.news .dishes .dish #price{
+    color:#FDA403;
+    font-weight:700;
+}
+.news .dishes .dish h5{
+    font-size:24px;
+    font-weight:700;
+    padding:10px 0px;
+}
+.news .dishes .dish p{
+    color:#B8B8B8;
+    font-size:16px;
+    font-weight:400;
+}
+.news .dishes .dish a{
+    position:absolute;
+    color:white;
+    border:2px #FDA403 solid;
+    background-color:#FDA403;
+    padding:15px 40px;
+    bottom:15%;
+    left:30%;
+    transition:all 1s ease;
+}
+.news .dishes .dish a:hover{
+    background-color:#CB8402;
+}
+.Gallery{
+    width:100%;
+    height:150vh;
+    background-color:white;
+}
+.Gallery .Gallery_heading{
+    text-align:center;
+    padding:30px 0px;
+}
+.Gallery .Gallery_heading h2{
+    font-size:56px;
+    font-weight:300;
+}
+.Gallery .Gallery_heading p{
+    font-size:20px;
+    color:#B8B8B8;
+}
+.Gallery .Gallery_imgs{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+}
+.Gallery .Gallery_imgs img{
+    width:30%;
+    height:350px;
+    transition:all 1s ease;
+}
+.Gallery .Gallery_imgs img:hover{
+    transform:scale(1.09);
+}
+.contact{
+    width:100%;
+    height:100vh;
+    background-color:#F8F9FA;
+}
+.contact .contact_heading{
+    text-align:center;
+    padding:50px 0px;
+}
+.contact .contact_heading h2{
+    font-size:56px;
+    font-weight:300;
+}
+.contact .contact_heading p{
+    font-size:20px;
+    font-weight:300;
+    color:#B8B8B8;
+}
+.contact form{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    row-gap:15px;
+}
+.contact form input{
+    background-color:#E6E6E6;
+    width:500px;
+    height:50px;
+    padding-left:10px;
+    font-size:18px;
+    border:none;
+}
+.contact form textarea{
+    background-color:#E6E6E6;
+    width:500px;
+    height:200px;
+    padding-left:10px;
+    font-size:18px;
+    border:none;
+}
+.contact form #input_2{
+    width:150px;
+    background-color:#FDA403;
+    color:white;
+    padding:10px;
+    transition:all 1s ease;
+}
+.contact form #input_2:hover{
+    background-color:#CB8402;
+}
+.contact .contact_right img{
+    width:400px;
+    height:250px;
+}
+.contact_content{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    column-gap:200px;
+}
+.last{
+    width:100%;
+    height:100vh;
+    background-color:#222222;
+    position:relative;
+}
+.last h2{
+    color:#A7A7A7;
+    font-size:14px;
+}
+.last p{
+    color:#5E5E5E;
+    font-size:16px;
+    font-weight:400;
+    padding:10px 0px;
+}
+.last a{
+    color:#5E5E5E;
+    font-size:16px;
+    font-weight:400;
+    padding:10px 0px;
+}
+.last a:hover{
+    color:#F59F04;
+}
+.last .tt{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    padding:10px 0px;
+}
+.last .US{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
+.last .last_heading{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    padding-top:50px;
+}
+.last .icons{
+   position:absolute;
+   top:60%;
+   left:40%;
+}
+.last .icons i{
+    color:#5E5E5E;
+    font-size:25px;
+    background-color:#2D2D2D;
+    width:55px;
+    height:55px;
+    padding:15px 0px;
+    text-align:center;
+    margin:0px 15px;
+    border-radius:50%;
+}
+.last .icons i:hover{
+    color:white;
+}
+.last .copyright{
+    position:absolute;
+    left:30%;
+    bottom:20%;
+}
